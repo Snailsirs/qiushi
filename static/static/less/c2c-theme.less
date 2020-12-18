@@ -1,0 +1,55 @@
+
+// 颜色变量
+@color_5051FF: rgba(80,81,255,1);
+@color_FF4646: rgba(255,70,70,1);
+@color_333333: rgba(51,51,51,1);
+@color_999999: rgba(153,153,153,1);
+// 全局下划线
+@global_border: 2upx solid rgba(238, 238, 238, 1);
+
+// 全局取消颜色
+.mixin_cancel_btn(@width;@height) {
+  width: @width;
+  height: @height;
+  background: rgba(216,216,216,1);
+  border-radius: 6upx;
+  line-height: @height;
+  text-align: center;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+// 全局按钮颜色
+.mixin_confirm_btn(@width;@height) {
+  width: @width;
+  height: @height;
+  background: @color_5051FF;
+  border-radius: 6upx;
+  line-height: @height;
+  text-align: center;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+// 全局字体颜色
+.font_color_333333 {
+	color: @color_333333;
+}
+.font_color_999999 {
+	color: @color_999999;
+}
+.font_color_5051FF {
+	color: @color_5051FF;
+}
+.font_color_FF4646 {
+	color: @color_FF4646;
+}
+
+// F5F5F5背景
+.background_F5F5F5 {
+	background:rgba(245,245,245,1);
+	width: 100%;
+	min-height: 100vh;
+}

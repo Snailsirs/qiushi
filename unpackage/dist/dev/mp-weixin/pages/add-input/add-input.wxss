@@ -1,0 +1,17 @@
+
+.uni-textarea.data-v-2796b904{
+		border: 1rpx solid #EEEEEE;
+}
+.gonggao.data-v-2796b904{
+	width: 500rpx;
+}
+.gonggao image.data-v-2796b904{
+	width: 75%;
+	margin-bottom: 20rpx;
+}
+.gonggao button.data-v-2796b904{
+	margin-top: 20rpx;
+	background: #FFE934;
+	color: #171606;
+}
+
